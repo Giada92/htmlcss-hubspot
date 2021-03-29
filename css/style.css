@@ -321,7 +321,7 @@ h4 {
     margin-top: 50px;
 }
 
-.row {
+.stat {
     height: 160px;
     width: calc(100% / 4);
 }
@@ -363,17 +363,17 @@ h4 {
     margin-top: 20px;
 }
 
-.row-logos {
+.box-logos {
     width: calc(100% / 4);
-    background-color: blue;
     height: 50px;
-    border: 1px solid white;
 }
 
-/* .row-logos > img {
-    height: 30%;
-} */
+.box-logos > img:not(.logo-big) {
+    width: 80%;
+    margin-top: 15px;
+}
 
-.logo-big {
-  
+.logo-big  {
+  height: 60%;
+  margin-top: 10px;
 }
