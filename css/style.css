@@ -14,7 +14,7 @@ a {
     color: #33475B
 }
 
-h2 {
+.title-level-2 {
     font-size: 26px;
     font-weight: 800;
     margin-bottom: 20px;
@@ -33,6 +33,17 @@ h3 {
 .container-50 {
     width: 50%;
     margin: 0 auto;
+}
+.container-60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.w-30 {
+    width: 30%;
+}
+.w-70 {
+    width: 70%;
 }
 
 .big-text {
@@ -75,6 +86,9 @@ h3 {
 
 .right {
     text-align: right;
+}
+.center {
+    text-align: center;
 }
 
 .btn {
@@ -194,7 +208,6 @@ li > img {
 /* Main */
 /* Main - Prima Sezione del main */
 #ups {
-    text-align: center;
     padding: 40px 0;
 }
 
@@ -215,7 +228,6 @@ li > img {
 
 #learn-more {
     width: 30%;
-    text-align: center;
 }
 #learn-more > img {
     width: 50%;
@@ -261,7 +273,6 @@ h4 {
 /* Main - Sezione a tre colonne */
 #article-col {
     margin-bottom: 40px;
-    text-align: center;
 }
 
 .column {
@@ -292,4 +303,77 @@ h4 {
 
 .h-100 {
     height: 100px;
+}
+
+/* Main - banner colorato */
+#community {
+    height: 630px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(to right, #00a7ba, #00b9a9);
+}
+
+#community .title-level-2 {
+    padding: 40px 50px 0 50px;
+}
+
+.table {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.row {
+    height: 160px;
+    width: calc(100% / 4);
+}
+
+.border-right {
+    border-right: 1px solid white;
+}
+.top {
+    border-top: 1px solid white;
+}
+
+.table img {
+    padding-top: 20px;
+}
+.table h2::after {
+    content: "\002B";
+}
+
+.table-h2 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+/* Main - Sezione Customers */
+#customers {
+    height: 200px;
+}
+
+#customers li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+#customers ul {
+    padding-top: 20px;
+}
+
+.table-customers {
+    margin-top: 20px;
+}
+
+.row-logos {
+    width: calc(100% / 4);
+    background-color: blue;
+    height: 50px;
+    border: 1px solid white;
+}
+
+/* .row-logos > img {
+    height: 30%;
+} */
+
+.logo-big {
+  
 }
