@@ -53,6 +53,9 @@ h3 {
 .c-blue {
     color: #33475B;
 }
+.c-white {
+    color: white;
+}
 
 .float-left {
     float: left;
@@ -94,6 +97,7 @@ h3 {
     color: white;
     border-radius: 5px;
     background-color: #FE775A;
+    cursor: pointer;
 }
 
 /* Header */
@@ -219,7 +223,7 @@ li > img {
 }
 .block {
     display: block;
-    padding: 0 70px;
+    padding: 0 60px;
 }
 
 #article-top-text{
@@ -250,7 +254,7 @@ h4 {
     color: #FE775A;
 }
 
-#article-top-text a {
+#article-top-text i {
     padding: 0 10px;
 }
 
@@ -261,12 +265,12 @@ h4 {
 }
 
 .column {
-    width: 32%;
-    padding: 20px 30px;;
+    width: 30%;
+    padding: 20px 30px;
 }
 
 .column.md {
-    margin: 0 20px;
+    margin: 0 5%;
 }
 
 .column > img {
@@ -284,4 +288,8 @@ h4 {
     list-style: none;
     text-align: left;
     margin-bottom: 30px;
+}
+
+.h-100 {
+    height: 100px;
 }
