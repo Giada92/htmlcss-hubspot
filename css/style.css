@@ -38,9 +38,17 @@ h3 {
     width: 60%;
     margin: 0 auto;
 }
-
+.w-25 {
+    width: 25%;
+}
 .w-30 {
     width: 30%;
+}
+.w-40 {
+    width: 40%;
+}
+.w-60 {
+    width: 60%;
 }
 .w-70 {
     width: 70%;
@@ -376,4 +384,34 @@ h4 {
 .logo-big  {
   height: 60%;
   margin-top: 10px;
+}
+
+/* Main - Ultima Seziones */
+#start-grow {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+#start-grow p {
+    padding: 20px 0 50px 0;
+    margin-top: 15px;
+}
+
+.start-grow-img > img {
+    width: 55%;
+}
+
+/* Footer */
+#footer {
+    height: 500px;
+    padding-top: 20px;
+    background-color: #32495b;
+}
+
+.info li:first-child {
+    margin: 20px 0;
+}
+
+.info li:not(first-child) {
+    margin-bottom: 10px;
 }
