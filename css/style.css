@@ -26,6 +26,28 @@ h3 {
     font-weight: 800;
 }
 
+.big-text {
+    font-size: 50px;
+    font-weight: 800;
+}
+.normal-text {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.small-text {
+    font-size: 12px;
+}
+
+.bg-grey {
+    background-color: #F4F9FD;
+}
+.c-blue {
+    color: #33475B;
+}
+.c-white {
+    color: white;
+}
+
 .container-70 {
     width: 70%;
     margin: 0 auto;
@@ -47,33 +69,14 @@ h3 {
 .w-40 {
     width: 40%;
 }
+.w-50 {
+    width: 50%;
+}
 .w-60 {
     width: 60%;
 }
 .w-70 {
     width: 70%;
-}
-
-.big-text {
-    font-size: 50px;
-    font-weight: 800;
-}
-.normal-text {
-    font-size: 16px;
-    line-height: 1.5em;
-}
-.small-text {
-    font-size: 12px;
-}
-
-.bg-grey {
-    background-color: #F4F9FD;
-}
-.c-blue {
-    color: #33475B;
-}
-.c-white {
-    color: white;
 }
 
 .float-left {
@@ -135,7 +138,6 @@ h3 {
 
 .header-fixed-left,
 .header-fixed-right {
-    width: 50%;
     height: 100%;
     vertical-align: middle;
 }
@@ -160,13 +162,8 @@ li > img {
     line-height: 80px; 
 }
 
-.nav-left {
-    width: 40%;
-    vertical-align: middle;
-}
-
+.nav-left,
 .nav-right {
-    width: 60%;
     vertical-align: middle;
 }
 
@@ -204,7 +201,6 @@ li > img {
 }
 
 .jumbotron-text {
-    width: 55%;
     padding-top: 40px;
 }
 
@@ -234,9 +230,6 @@ li > img {
     margin-bottom: 40px;
 }
 
-#learn-more {
-    width: 30%;
-}
 #learn-more > img {
     width: 50%;
     padding: 50px 0 15px 0;
@@ -247,7 +240,6 @@ li > img {
 }
 
 #article-top-text{
-    width: 70%;
     height: 300px;
     padding: 40px 50px 40px 20px;
 }
@@ -264,7 +256,6 @@ h4 {
 }
 
 .hr {
-    width: 60%;
     margin: 0 40px 4px 40px;
     display: inline-block;
     border: 1px solid grey;
@@ -284,7 +275,6 @@ h4 {
 }
 
 .column {
-    width: 30%;
     padding: 20px 30px;
 }
 
@@ -315,8 +305,8 @@ h4 {
 
 /* Main - banner colorato */
 #community {
-    height: 630px;
     margin-bottom: 40px;
+    padding-bottom: 40px;
     background-image: linear-gradient(to right, #00a7ba, #00b9a9);
 }
 
@@ -403,7 +393,6 @@ h4 {
 
 /* Footer */
 #footer {
-    height: 500px;
     padding-top: 20px;
     background-color: #32495b;
 }
@@ -414,4 +403,46 @@ h4 {
 
 .info li:not(first-child) {
     margin-bottom: 10px;
+}
+
+.info > ul {
+    list-style: none;
+}
+
+#footer a:not(.btn-footer) {
+    color: white;
+}
+
+.btn-footer {
+    font-size: 12px;
+    padding: 10px 10px;
+    margin: 20px 0;
+    color: #32495b;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #32495b;
+}
+
+.fab {
+    padding-right: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.leng {
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 1px solid white;
+}
+
+.leng > li {
+    padding: 0 20px 20px 0;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.padding {
+    padding: 40px 0;
 }
