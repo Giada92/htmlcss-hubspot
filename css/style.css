@@ -78,6 +78,9 @@ h3 {
 .w-70 {
     width: 70%;
 }
+.w-100 {
+    width: 100%;
+}
 
 .float-left {
     float: left;
@@ -129,7 +132,6 @@ h3 {
 /* Header-fixed */
 #header-fixed {
     position: fixed;
-    width: 100%;
     height: 80px; 
     line-height: 80px;   
     border-bottom: 1px solid #465B6B;
@@ -157,7 +159,6 @@ li > img {
 /* Header-Barra di navigazione */
 .nav {
     height: 80px;
-    width: 100%;
     padding-top: 80px;
     line-height: 80px; 
 }
@@ -181,7 +182,6 @@ li > img {
 /* Header - Titolo header - Jumbotron */
 #jumbotron {
     position: relative;
-    width: 100%;
     height: 620px;
     background-color: #fff3ef;
     background-image: url("../img/jumbotron.png");
@@ -193,7 +193,6 @@ li > img {
 .over {
     position: absolute;
     bottom: 0;
-    width: 100%;
     height: 65px;
     border-top: 3px solid #33475b;
     border-bottom: 3px solid #33475b;
@@ -315,7 +314,6 @@ h4 {
 }
 
 .table {
-    width: 100%;
     margin-top: 50px;
 }
 
@@ -439,10 +437,53 @@ h4 {
     padding: 0 20px 20px 0;
 }
 
-.w-100 {
-    width: 100%;
-}
-
 .padding {
     padding: 40px 0;
 }
+
+/* Chat - fixed */
+.chat {
+    position: fixed;
+    bottom: 10%;
+    right: 1%;
+}
+
+.icon {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #32495b;
+    border: 1px solid white;
+}
+
+.icon > img {
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+.chat-text {
+    width: 250px;
+    padding: 25px 15px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #32495b;
+    position: relative;
+}
+
+.chat-text > img {
+    width: 20%;
+    position: absolute;
+    right: 40%;
+    bottom: 85%;
+}
+
+.cont-i {
+    display: inline;
+}
+
