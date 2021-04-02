@@ -97,10 +97,10 @@
         <!-- Titolo header - Jumbotron -->
         <div id="jumbotron" class="w-100">
             <div class="container-70">
-                <div class="jumbotron-text w-60">
+                <div class="jumbotron-text w-60 reveal">
                     <h1 class="big-text c-blue">There's a better way to grow.</h1>
                     <p class="c-blue normal-text">Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the customer."</p>
-                    <a class="btn-lg" href="#">GetHubspotFree</a>
+                    <a class="btn lg" href="#">GetHubspotFree</a>
                     <p class="small-text">Get started with FREE tools, and upgrade as you grow.</p>
                 </div>  
             </div>           
@@ -121,12 +121,12 @@
         <!-- /Prima Sezione del main -->
 
         <!-- Seconda sezione - Articolo -->
-        <section id="article-top" class="bg-grey container-70 clearfix shadow">
+        <section id="article-top" class="bg-grey container-70 clearfix shadow reveal">
             <!-- Seconda sezione - Articolo Top -->
             <div id="learn-more" class="float-left center w-30">
                 <img src="img/book.svg" alt="Book">
                 <div class="block">
-                    <div class="btn-lg">Learn More</div>
+                    <div class="btn lg">Learn More</div>
                 </div>
             </div>
 
@@ -155,7 +155,7 @@
         <!-- /Seconda sezione - Articolo -->
 
         <!-- Sezione a tre colonne -->
-        <section id="article-col" class="clearfix container-70 center">
+        <section id="article-col" class="clearfix container-70 center reveal">
             <!-- Articolo a sinostra -->
             <article class="column float-left shadow w-30">
                 <img src="img/buble.svg" alt="">
@@ -180,7 +180,7 @@
                     </li>
                 </ul>
                 <div class="block">
-                    <div class="btn-lg">Learn More</div>
+                    <div class="btn lg">Learn More</div>
                 </div>
             </article>
             <!-- /Articolo a sinistra -->
@@ -209,7 +209,7 @@
                     </li>
                 </ul>
                 <div class="block">
-                    <div class="btn-lg">Learn More</div>
+                    <div class="btn lg">Learn More</div>
                 </div>
             </article>
             <!-- /Articolo Centrale -->
@@ -238,7 +238,7 @@
                     </li>
                 </ul>
                 <div class="block">
-                    <div class="btn-lg">Learn More</div>
+                    <div class="btn lg">Learn More</div>
                 </div>
             </article>           
             <!-- /Articolo Destro -->
@@ -343,7 +343,7 @@
             <div class="start-grow-text float-left w-40">
                 <h2 class="title-level-2">Start Growing With HubSpot Today</h2>
                 <p class="normal-text">With tools to make every part of your process more human and a support team excited to help you, getting started with inboud has never been easer.</p>
-                <a class="btn-lg" href="#">GetHubspotFree</a>
+                <a class="btn lg" href="#">GetHubspotFree</a>
                 <p class="small-text">Get started with FREE tools, and upgrade as you grow.</p>
             </div>
             <div class="start-grow-img float-left w-60 right">
@@ -512,5 +512,11 @@
         </div>        
     </div>
     <!-- /Chat -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.reveal', { distance: '50px' ,  duration: 1500 , easing: 'cubic-bezier(.215, .61, .355, 1)' });
+    </script>
+    
 </body>
 </html>
